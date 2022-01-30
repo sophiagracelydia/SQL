@@ -1,5 +1,6 @@
 # Record Company Database
 ### 1. To change the column name into "Band Name"
+[Solution](https://github.com/sophiagracelydia/SQL/blob/main/Record%20Company/solutions/1.Change%20Column%20Name.sql)
 ```sql
 SELECT bands.name AS 'Band Name' FROM bands;
 ```
