@@ -16,3 +16,12 @@ ORDER BY release_year
 LIMIT 1;
 ```
 ![image](https://user-images.githubusercontent.com/52828894/151689196-4e92e188-10d0-42e5-adcd-3e18f3d82fe9.png)
+
+
+### 3. 
+```sql
+SELECT DISTINCT bands.name AS 'Band Name'
+FROM bands
+JOIN albums ON bands.id = albums.band_id;
+```
+![image](https://user-images.githubusercontent.com/52828894/151694436-96358715-87fd-4bbc-bae1-3878a80867b2.png)
