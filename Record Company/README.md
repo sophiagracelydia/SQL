@@ -18,7 +18,8 @@ LIMIT 1;
 ![image](https://user-images.githubusercontent.com/52828894/151689196-4e92e188-10d0-42e5-adcd-3e18f3d82fe9.png)
 
 
-### 3. 
+### 3. Get all Bands that have Albums
+[Solution](https://github.com/sophiagracelydia/SQL/blob/main/Record%20Company/solutions/3.%20Get%20all%20bands%20that%20have%20albums.sql)
 ```sql
 SELECT DISTINCT bands.name AS 'Band Name'
 FROM bands
