@@ -1,5 +1,5 @@
 # Record Company Database
-### 1. To change the column name into "Brand Name"
+### 1. To change the column name into "Band Name"
 ```sql
 SELECT bands.name AS 'Band Name' FROM bands;
 ```
